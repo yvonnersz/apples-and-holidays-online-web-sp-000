@@ -64,7 +64,7 @@ def all_supplies_in_holidays(holiday_hash)
         fixed_holidays = holidays.to_s.split("_").collect {|word| word.capitalize}.join(" ")
         binding.pry
         puts "#{seasons.to_s.capitalize}:"
-        puts "#{fixed_holidays}: #{supplies.join(", ")}"
+        puts " #{fixed_holidays}: #{supplies.join(", ")}"
     end
   end
 
